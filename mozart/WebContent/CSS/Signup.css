@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+
+
+#body{
+	margin: 0px; 
+	background: url('../backgrounds/LoginBack.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
+#banner-top{
+	color: #ECEFF1; 
+	background-color: #009688; 
+	padding-left: 2%;
+}
+
+#banner{
+	font-family: cursive;
+}
+
+#heading-mozart {
+	margin: 0px; 
+	padding: 10px; 
+	padding-bottom: 10px;
+}
+
+#main{
+	margin-top: 10%; 
+	color: #ECEFF1; 
+	font-size: large;
+}
+
+#Signup-main{
+	display: inline-block; 
+	margin-bottom: 20px; 
+	width: 400px; 
+	border: thick; 
+	outline-style: ridge; 
+	outline-color: #009688;
+}
+
+#Signup-Heading{
+	margin-bottom: 10px; 
+	margin-top: 10px;
+}
+
+#formrowone{
+	margin-bottom: 5px; 
+	display: inline-block; 
+	width: 300px;	
+}
+
+#formrowtwo{
+	margin-bottom: 15px; 
+	display: inline-block; 
+	width: 300px;
+}
+
+#Signupformrowone{
+	margin-bottom: 5px; 
+	display: inline-block; 
+	width: 80px; !important
+}
+
+#Signupformrowtwo{
+	margin-bottom: 15px; 
+	display: inline-block; 
+	width: 80px; !important
+}
+
+#submit{
+	display: inline-block; 
+	width: 300px;		
+}
+
+#submitbutton{
+	outline-style: outset; 
+	outline-color: teal; 
+	font-size: large;
+}
+
+a{
+	color: #ECEFF1; 
+	font-size: x-large;
+}
+

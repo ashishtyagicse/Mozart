@@ -1,0 +1,141 @@
+@CHARSET "ISO-8859-1";
+
+
+#body{
+	margin: 0px; 
+	background: url('../backgrounds/LoginBack.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
+#banner-top{
+	color: #ECEFF1; 
+	background-color: #009688; 
+	padding-left: 2%;
+}
+
+#banner{
+	font-family: cursive;
+}
+
+#heading-mozart {
+	margin: 0px; 
+	padding: 10px; 
+	padding-bottom: 10px;
+}
+
+#main{
+	margin-top: 10%; 
+	color: #ECEFF1; 
+	font-size: large;
+}
+
+#Login-main{
+	display: inline-block; 
+	margin-bottom: 20px; 
+	width: 320px; 
+	border: thick; 
+	outline-style: ridge; 
+	outline-color: #009688;
+}
+
+#Login-Heading{
+	margin-bottom: 10px; 
+	margin-top: 10px;
+}
+
+#formrowone{
+	margin-bottom: 5px; 
+	display: inline-block; 
+	width: 260px;
+}
+
+#formrowtwo{
+	margin-bottom: 15px; 
+	display: inline-block; 
+	width: 260px;
+}
+
+#Signupformrowone{
+	margin-bottom: 5px; 
+	display: inline-block; 
+	width: 80px; !important
+}
+
+#Signupformrowtwo{
+	margin-bottom: 15px; 
+	display: inline-block; 
+	width: 80px; !important
+}
+
+#submit{
+	display: inline-block; 
+	width: 300px;		
+}
+
+#submitbutton{
+	outline-style: outset; 
+	outline-color: teal; 
+	font-size: large;
+}
+
+a{
+	color: #ECEFF1; 
+	font-size: x-large;
+}
+
+
+.flip {
+    backface-visibility:             hidden;
+        -moz-backface-visibility:    hidden;
+        -ms-backface-visibility:     hidden;
+        -o-backface-visibility:      hidden;
+        -webkit-backface-visibility: hidden;
+    	position:absolute;
+    	left: 0;
+    	right: 0;
+    	margin-left: auto;
+    	margin-right:auto;
+    transform-origin:             50% 50% 0px;
+        -moz-transform-origin:    50% 50% 0px;
+        -ms-transform-origin:     50% 50% 0px;
+        -o-transform-origin:      50% 50% 0px;
+        -webkit-transform-origin: 50% 50% 0px;
+    transition: all 1s;
+        -moz-transition:    all 1s;
+        -ms-transition:     all 1s;
+        -o-transition:      all 1s;
+        -webkit-transition: all 1s;   
+}
+
+#side-1 {
+    transform:             rotateY( 0deg );
+        -moz-transform:    rotateY( 0deg );
+        -ms-transform:     rotateY( 0deg );
+        -o-transform:      rotateY( 0deg );
+        -webkit-transform: rotateY( 0deg );
+}
+
+#side-2 {
+    transform:             rotateY( 180deg );
+        -moz-transform:    rotateY( 180deg );
+        -ms-transform:     rotateY( 180deg );
+        -o-transform:      rotateY( 180deg );
+        -webkit-transform: rotateY( 180deg );
+}
+
+.flip-side-1 {    
+    transform:             rotateY( 0deg ) !important;
+        -moz-transform:    rotateY( 0deg ) !important;
+        -ms-transform:     rotateY( 0deg ) !important;
+        -o-transform:      rotateY( 0deg ) !important;
+        -webkit-transform: rotateY( 0deg ) !important;
+}
+
+.flip-side-2 {
+    transform:             rotateY( 180deg ) !important;
+        -moz-transform:    rotateY( 180deg ) !important;
+        -ms-transform:     rotateY( 180deg ) !important;
+        -o-transform:      rotateY( 180deg ) !important;
+        -webkit-transform: rotateY( 180deg ) !important;
+}
